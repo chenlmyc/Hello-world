@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.00 scan initiated Sat Jun 18 10:14:35 2016 as: nmap -v -p 80 -oX result.xml -&#45;unprivileged -oX result.xml -&#45;unprivileged 202.141.160.8 -->
+<nmaprun scanner="nmap" args="nmap -v -p 80 -oX result.xml -&#45;unprivileged -oX result.xml -&#45;unprivileged 202.141.160.8" start="1466216075" startstr="Sat Jun 18 10:14:35 2016" version="7.00" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="80"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1466216075"/>
+<taskend task="Ping Scan" time="1466216075" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1466216083"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1466216084"/>
+<taskbegin task="Connect Scan" time="1466216084"/>
+<taskend task="Connect Scan" time="1466216084" extrainfo="1 total ports"/>
+<host starttime="1466216075" endtime="1466216084"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="202.141.160.8" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="23375" rttvar="18000" to="100000"/>
+</host>
+<runstats><finished time="1466216084" timestr="Sat Jun 18 10:14:44 2016" elapsed="8.68" summary="Nmap done at Sat Jun 18 10:14:44 2016; 1 IP address (1 host up) scanned in 8.68 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

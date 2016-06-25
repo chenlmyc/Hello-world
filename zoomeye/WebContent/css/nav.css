@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+.navbar ul li{
+	z-index:100;
+}
+.navbar ul li:hover{
+	z-index:100;
+	border:0
+}

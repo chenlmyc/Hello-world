@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+.main{
+	width:100%;
+	margin:0 auto;
+}
+.content{
+	width:100%;
+}
+.menu{
+	margin:30px 80px;
+	width:200px;
+}
+.nav > li > a {
+    color: #37a6aa;
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}
+#submitbutton{
+	position: absolute;
+	left:961px;
+	width:300px;
+}
+#pop{
+	position: absolute;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    bottom: 0px;
+    opacity: 0.3;
+    background: rgba(49, 112, 143, 0.35);
+    display: none;
+    border-radius:3px;
+}
+#pop #popHeader{
+    border-bottom: 1px solid rgba(43, 43, 43, 0.51);
+    height: 48px;
+}
+#pop #popBody{
+	    text-align: center;
+    padding: 40px;
+    color: rgba(43, 43, 43, 0.51);
+}
